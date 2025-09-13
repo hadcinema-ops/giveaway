@@ -1,19 +1,23 @@
 {
-  "name": "pumpfun-flywheel-airdrop",
-  "version": "1.0.0",
+  "name": "solana-flywheel-backend",
+  "version": "1.7.2",
+  "private": true,
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "node src/index.js",
+    "start": "node src/index.js"
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.6",
-    "@solana/web3.js": "^1.95.4",
-    "bs58": "^5.0.0",
-    "cross-fetch": "^4.0.0",
+    "@solana/web3.js": "^1.95.5",
+    "axios": "^1.7.2",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
     "morgan": "^1.10.0",
-    "axios": "^1.7.2"
+    "node-cron": "^3.0.3"
   }
 }

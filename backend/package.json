@@ -1,0 +1,19 @@
+{
+  "name": "pumpfun-flywheel-airdrop",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.95.4",
+    "bs58": "^5.0.0",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "axios": "^1.7.2"
+  }
+}
